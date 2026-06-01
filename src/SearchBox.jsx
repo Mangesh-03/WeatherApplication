@@ -7,7 +7,7 @@ import "./SearchBox.css";
 
 export default function SearchBox({updateInfo})
 {
-    let API_KEY = "63335af931cb383d23243c43fdf5493c";
+    let API_KEY = "63335af931cb383d23243*********";
     let API_URL = "https://api.openweathermap.org/data/2.5/weather";
 
     let [city,setCity] = useState("");
